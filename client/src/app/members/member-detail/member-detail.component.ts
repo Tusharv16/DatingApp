@@ -17,7 +17,7 @@ export class MemberDetailComponent implements OnInit {
   member: Member;
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
-  activeTab: TabDirective
+  activeTab: TabDirective;
   messages: Message[] = [];
 
   constructor(private memberService: MembersService, private route: ActivatedRoute, 
